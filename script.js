@@ -124,10 +124,6 @@ function showSuggestions(inputVal, results) {
   }
 }
 
-// function highlightText(inputVal, results) {
- 
-// }
-
 function useSuggestion(e) {
   const selectedFruit = e.target.innerText;
   input.value = selectedFruit;
